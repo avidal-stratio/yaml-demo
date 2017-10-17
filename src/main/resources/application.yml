@@ -1,2 +1,57 @@
-{
-    }
+server:
+  port: 0
+
+application:
+  team:
+    name: Leganés
+    coach: Asier Garitano
+    # Example list
+    history:
+      - Equipo de primera división
+      - Dos años en primera
+      - Llamados pepineros
+    # Example hashmap
+    titles:
+      Liga: 0
+      Copa: 0
+    # Example object's list
+    players:
+      -
+        name: Cuellar
+        number: 13
+        position: goalkeeper
+      -
+        name: Amrabat
+        number: 18
+        position: striker
+      -
+        name: Siovas
+        number: 4
+        position: defender
+    # Example object's hashmap
+    injured:
+      sprain:
+        name: Matovani
+        number: 5
+        position: defender
+    # Example hashmap of object's list
+    positions:
+      defender:
+        -
+          name: Siovas
+          number: 4
+          position: defender
+        -
+          name: Matovani
+          number: 5
+          position: defender
+      striker:
+        -
+          name: Amrabat
+          number: 18
+          position: striker
+      goalkeeper:
+        -
+          name: Cuellar
+          number: 13
+          position: goalkeeper

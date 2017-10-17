@@ -15,6 +15,10 @@ public class Team {
 
     private List<String> history;
 
+    private HashMap<String, List<Player>> positions;
+
+    private HashMap<String, Player> injured;
+
     public String getName() {
         return name;
     }
@@ -55,4 +59,19 @@ public class Team {
         this.history = history;
     }
 
+    public HashMap<String, List<Player>> getPositions() {
+        return positions;
+    }
+
+    public void setPositions(HashMap<String, List<Player>> positions) {
+        this.positions = positions;
+    }
+
+    public HashMap<String, Player> getInjured() {
+        return injured;
+    }
+
+    public void setInjured(HashMap<String, Player> injured) {
+        this.injured = injured;
+    }
 }
